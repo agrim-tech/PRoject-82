@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+    </script>
+
+</head>
+
+<body class="body_backgorund">
+
+    <div align="center">
+        <h1>Paint</h1>
+
+        <canvas id="myCanvas" width="800" height="480"></canvas>
+        <br><br>
+        <input placeholder="Enter Colour" value="black" id="input">
+        <input type="number" value="2" placeholder="Enter Width" id="input2">
+        <input type="number" placeholder="Enter Radius" value="35" id="input3">
+        <button onclick="clearArea()">Clear</button>
+        <label for="Mode">Mode:</label>
+        <select onchange="changeforachange()" name="Mode" id="mode">
+            <option value="light">Light Mode</option>
+            <option value="dark">Dark Mode</option>
+        </select>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
